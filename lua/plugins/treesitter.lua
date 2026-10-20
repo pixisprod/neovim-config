@@ -16,6 +16,7 @@ require("nvim-treesitter").install({
 	"markdown",
 	"dockerfile",
 	"make",
+	"gdscript",
 })
 
 local group = vim.api.nvim_create_augroup("MyTreesitter", { clear = true })

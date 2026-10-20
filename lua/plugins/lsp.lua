@@ -2,7 +2,7 @@ vim.pack.add({
 	"https://github.com/neovim/nvim-lspconfig",
 })
 
-vim.lsp.enable({ "gopls", "docker_language_server" })
+vim.lsp.enable({ "gopls", "docker_language_server", "gdscript", "lua_ls" })
 
 local group = vim.api.nvim_create_augroup("MyGoFormat", { clear = true })
 

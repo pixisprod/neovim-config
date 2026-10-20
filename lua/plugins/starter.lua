@@ -15,7 +15,7 @@ local header = [[
 ]]
 
 starter.setup({
-  header = art,
+  header = header,
   items = {
     starter.sections.recent_files(5, false),
     { name = "Find file", action = "FzfLua files", section = "Actions" },
