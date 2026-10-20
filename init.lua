@@ -10,6 +10,7 @@ end
 require("config.options")
 require("config.keymaps")
 require("config.colorscheme")
+require("config.theme")
 require("config.filetypes")
 require("config.statusline")
 require("config.root")

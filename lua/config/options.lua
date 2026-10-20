@@ -20,6 +20,7 @@ opt.scrolloff = 8
 
 opt.splitright = true
 opt.splitbelow = true
+opt.fillchars = { eob = " " }
 
 opt.mouse = "a"
 opt.autoread = true
